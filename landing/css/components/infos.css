@@ -1,0 +1,75 @@
+.infos{
+    background-color: #CC6242;
+    padding: 50px;
+}
+
+.infos h2{
+    margin: 0 auto;
+    text-align: center;
+    font-family:"Copperplate",fantasy;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1 1 0;
+    background-color:white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 20%;
+    text-align: center;
+}
+
+.card:hover{
+	background-color: #D5DC3C;
+	box-shadow: 20px, 25px, 30px black;
+}
+
+#ecole{
+    background-image:url("../../images/ecole.jpg");
+}
+
+#itf{
+    background-image:url("../../images/itf\ card.jpg");
+}
+
+#infra{
+    background-image:url("../../images/infrastructure.jpeg");
+}
+
+.image{
+    background-position: center;
+    background-size: cover;
+    display:block;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.btn-card{
+    text-decoration: none;
+    color:white;
+    padding:20px;
+    border-radius: 12px;
+    background-color: #CC6242;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-card:hover{
+    background-color: black;
+}
+
+h3{
+    font-family: "Copperplate", fantasy;
+}
+.card p{
+    font-family: "Monaco", monospace;
+}

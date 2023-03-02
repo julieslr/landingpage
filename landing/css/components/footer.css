@@ -1,0 +1,35 @@
+.partenaires {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .partenaires li {
+    text-align: center;
+  }
+  
+  .partenaires img {
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+
+  .contact{
+    text-align: center;
+  }
+
+  .contact a{
+    text-decoration: none;
+    size: a3;
+  }
+  h4{
+    font-family: "Copperplate", monospace;
+  }
+  .contact p{ 
+  font-family:"Monaco", monospace; }
+  .footer{
+    background-color: #f2e3d3;
+  }

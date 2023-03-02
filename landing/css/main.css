@@ -1,0 +1,7 @@
+@import url(components/landing.css);
+@import url(components/infos.css);
+@import url(components/footer.css);
+
+body{
+    margin: 0px;
+}
